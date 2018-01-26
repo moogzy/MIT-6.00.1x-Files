@@ -1,3 +1,4 @@
+#!/usr/bin/python
 """
 
 Find longest alphabetical order substring in a given string.
@@ -31,7 +32,7 @@ while currloc < strend:
     currloc += 1
   # Current slice location broken the alphabetical order requirement.
   # Append the current substring to our list, reset to an empty substring and increment the current location.
-  else:
+  else:  
     sublist.append(substr)
     substr = ''
     currloc += 1
